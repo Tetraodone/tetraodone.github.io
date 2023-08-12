@@ -35,14 +35,14 @@ body{
     height:30px;
     transition: transform 0.5s;
     transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
 }
 
 .line-back{
     background:rgb(34 40 49);;
     color:rgb(237, 233, 245);
     transform:rotateX(180deg);
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
     padding-top:5px;
     height:25px  !important;
     width:100%;
