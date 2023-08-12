@@ -130,7 +130,7 @@ body{
     width:50px;
 }
 
-.line-container:hover .line{
+.line-container:hover .line, .info-slide:active .line{
     transform:rotateX(180deg)
 }
 
